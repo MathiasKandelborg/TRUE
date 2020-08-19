@@ -1,0 +1,6 @@
+[submodule "cms"]
+	path = cms
+	url = ./cms
+[submodule "web"]
+	path = web
+	url = ./web
