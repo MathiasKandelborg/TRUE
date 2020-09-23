@@ -1,0 +1,61 @@
+{
+  "name": "true",
+  "version": "1.0.0",
+  "repository": "https://github.com/MathiasKandelborg/TRUE.git",
+  "author": "Mathias Wøbbe <mathias@kandelborg.dk>",
+  "license": "MIT",
+  "private": "true",
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.22.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/prompt": "11.0.0",
+    "@next/eslint-plugin-next": "9.5.3",
+    "@types/bcp-47": "1.0.0",
+    "@types/react": "16.9.49",
+    "@types/react-dom": "16.9.8",
+    "@types/webpack-env": "1.15.3",
+    "@typescript-eslint/eslint-plugin": "4.2.0",
+    "@typescript-eslint/parser": "4.2.0",
+    "babel-eslint": "10.1.0",
+    "commitizen": "4.2.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-lerna-changelog": "^2.0.3",
+    "eslint": "7.9.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-typescript": "10.0.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-config-standard-react": "9.2.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-jsdoc": "30.5.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "husky": "4.3.0",
+    "prettier": "2.1.2",
+    "semantic-release": "17.1.2",
+    "typescript": "4.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
