@@ -1,6 +1,6 @@
 [submodule "cms"]
-	path = cms
+	path = packages/cms
 	url = https://github.com/MathiasKandelborg/TRUE-cms
 [submodule "web"]
-	path = web
+	path = packages/web
 	url = https://github.com/MathiasKandelborg/TRUE-framework
