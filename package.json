@@ -1,10 +1,13 @@
 {
   "name": "true",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "repository": "https://github.com/MathiasKandelborg/TRUE.git",
   "author": "Mathias Wøbbe <mathias@kandelborg.dk>",
   "license": "MIT",
   "private": "true",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
   "husky": {
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
@@ -14,9 +17,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "lerna": "^3.22.1"
-  },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
@@ -30,8 +30,7 @@
     "@typescript-eslint/parser": "4.2.0",
     "babel-eslint": "10.1.0",
     "commitizen": "4.2.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "cz-lerna-changelog": "^2.0.3",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "7.9.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-typescript": "10.0.0",
