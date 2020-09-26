@@ -1,6 +1,6 @@
 {
   "name": "true",
-  "version": "0.0.0-development",
+  "version": "1.0.0-alpha.1",
   "repository": "https://github.com/MathiasKandelborg/TRUE.git",
   "author": "Mathias Wøbbe <mathias@kandelborg.dk>",
   "license": "MIT",
@@ -35,8 +35,6 @@
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-typescript": "10.0.0",
     "eslint-config-prettier": "6.11.0",
-    "eslint-config-standard": "14.1.1",
-    "eslint-config-standard-react": "9.2.0",
     "eslint-import-resolver-typescript": "2.3.0",
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-jsdoc": "30.5.1",
@@ -45,8 +43,9 @@
     "eslint-plugin-prefer-arrow": "1.2.2",
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react": "7.21.0",
     "eslint-plugin-react-hooks": "4.1.2",
+
     "husky": "4.3.0",
     "prettier": "2.1.2",
     "semantic-release": "17.1.2",
